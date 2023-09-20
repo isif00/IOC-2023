@@ -7,7 +7,7 @@ code = ''
 
 data_list = ast.literal_eval(data_str)
 
-for index, matrix in enumerate(data_list):
+for matrix in data_list:
     found = False
     row_index = 0
     for row in matrix:
